@@ -2,32 +2,16 @@
 layout: style
 ---
 
-/* ==========================================================================
-   Page intro
-   ========================================================================== */
-
-.intro {
-  margin: 1rem 0;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+.bgimage {
+  width:100%;
+  height:500px;
+  background: url('https://images.unsplash.com/photo-1438109491414-7198515b166b?q=80&fm=jpg&s=cbdabf7a79c087a0b060670a6d79726c');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+  background-attachment: fixed;
 }
-
-.intro-image {
-  position: relative;
-  margin-top: -3rem; /* compensate for intro top margin */
-  margin-bottom: 3rem;
-
-  &::before {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background-color: rgba($accent-color, 0.25);
-    content: '';
-  }
-
-  img {
-    width: 100%;
-  }
+.bgimage h5 {
+  color:white;
+  text-shadow:2px 2px #333;
 }
