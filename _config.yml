@@ -11,7 +11,7 @@ meta_author:
 # (http://yourusername.github.io/repository-name)
 # and NOT your User repository (http://yourusername.github.io)
 # then add in the baseurl here, like this: "/repository-name"
-baseurl: "/bryne_juletregard"
+baseurl: /bryne_juletregard
 
 # Google webmaster tools
 google_verify:
