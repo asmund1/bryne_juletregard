@@ -6,7 +6,7 @@ description: "Plukk ut juletre på rot og hogge det sjøl eller velge blant vår
 keywords: "juletre, sjølhogst, kranser, pyntegrønt"
 skills:
 meta_author:
-christmas: false
+christmas: true
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
